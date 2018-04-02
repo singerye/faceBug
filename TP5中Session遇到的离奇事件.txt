@@ -1,0 +1,11 @@
+存储session
+
+ Session::set('adminData',$user,'think');
+
+三个参数分别是session名字，要存储的值，还有作用域
+
+取SESSION
+
+Session::get('adminData','think');
+
+一定要写作用域 如果不写 我的天 你会很惨
